@@ -1,0 +1,14 @@
+name: ClientLink
+version: '${project.version}'
+main: dev.misieur.ClientLink.ClientLink
+api-version: 1.13
+softdepend:
+  - FeatherServerAPI
+  - PlaceholderAPI
+# packetevents
+  - ProtocolLib
+  - ProtocolSupport
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - Geyser-Spigot

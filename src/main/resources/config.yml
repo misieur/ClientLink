@@ -1,0 +1,29 @@
+bypass-miss-penalty: true #Feather, Animatium & Lunar
+left-click-item-usage: true #Animatium only
+disable-shaders: false #Lunar only
+disable-chunk-reloading: true #Lunar only
+disable-broadcasting: true #Lunar only
+anti-portal-traps: true #Lunar only
+
+feather-server-list-background: # https://docs.feathermc.com/server-api/meta/server-list-background
+  enabled: true
+  image: "server-background.png"
+
+discord-rich-presence: # https://docs.feathermc.com/server-api/meta/discord-rich-presence Feather only (Your server must be a part of Lunar Client's ServerMappings to use Rich Presence Module. https://lunarclient.dev/apollo/developers/modules/richpresence)
+  enabled: true
+  image: "https://upload.wikimedia.org/wikipedia/en/c/c7/Chill_guy_original_artwork.jpg"
+  imageText: "Epic Survival Server"
+  state: "Mining diamonds"
+  details: "Join us at play.example.com"
+  enable-party-size: false
+feather-mods-blocked: # https://docs.feathermc.com/server-api/mods#reference
+  - perspective # please don't do that
+  - teamtracker
+feather-mods-disabled: # players will still be able to reactivate them
+  - autohidehud
+feather-mods-enabled: # players will still be able to disable them
+  - saturation
+lunar-mods-disabled:
+  - freelook # please don't do that
+lunar-mods-enabled:
+  - minimap
