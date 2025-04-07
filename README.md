@@ -5,16 +5,13 @@ ClientLink is a plugin for Spigot/Bukkit, Paper, and their forks that enhances i
 ## Features
 
 *   **Feather Client Integration:**
-    *    <details>
-          <summary>Configuration of the server background in the Feather server list.</summary>
+    *    Configuration of the server background in the Feather server list.
           
           ![Feather Background Preview](https://github.com/user-attachments/assets/7e9eb7d8-8f6f-4f49-ba44-e30a1de6bc9c)
-    *   <details>
-          <summary>Management of Discord Rich Presence to display custom server information.</summary>
+    * Management of Discord Rich Presence to display custom server information.
           
-          ![Feather Discord Presence Preview](https://github.com/user-attachments/assets/31d9c08d-373b-4832-aa9f-7284d3ba0fa8)
-          
-        </details>
+      ![Feather Discord Presence Preview](https://github.com/user-attachments/assets/31d9c08d-373b-4832-aa9f-7284d3ba0fa8)
+      
     *   Blocking, enabling, or disabling specific Feather mods.
 *   **Lunar Client Integration:**
     *   Disabling server-specific game features (shaders, chunk reloading, broadcasting, portal traps).
